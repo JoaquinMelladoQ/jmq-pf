@@ -1,0 +1,14 @@
+.main {
+  margin: 5em 20em;
+}
+
+.main h2 {
+  font-size: 56px;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px){
+  .main {
+    margin-inline: 0em;
+  }
+}

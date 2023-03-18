@@ -1,0 +1,42 @@
+.main {
+  margin: 2em 20em;
+}
+
+.main h2 {
+  font-size: 56px;
+}
+
+.blog {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.blog p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.blog a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.blog a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 991px){
+  .main {
+    margin-inline: 0em;
+  }
+}
